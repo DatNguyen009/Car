@@ -109,6 +109,6 @@ Route::post('/check', 'App\Http\Controllers\Carcontroller@check')->name('check')
 
 
 Route::apiResource('/api', 'App\Http\Controllers\Api\ProductController');
-Route::apiResource('/api/user', 'App\Http\Controllers\Api\UserApi');
-
+Route::apiResource('/api/user','App\Http\Controllers\Api\UserApi');
+Route::apiResource('/api/schedule','App\Http\Controllers\Api\ScheduleApi');
 
